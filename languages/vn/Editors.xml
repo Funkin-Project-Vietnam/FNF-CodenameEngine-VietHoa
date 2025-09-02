@@ -1,84 +1,84 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <language>
 	<group name="General Editor Translations" prefix="editor.">
-		<str id="autosavingIn">Autosaving in {0} seconds{1}</str>
-		<str id="autosavingCanceledSuffix">(Canceled)!</str>
+		<str id="autosavingIn">tự động lưu trong {0} giây{1}</str>
+		<str id="autosavingCanceledSuffix">(Huỷ)!</str>
 
 		<str id="ok">Ok</str>
-		<str id="cancel">Cancel</str>
-		<str id="save">Save</str>
-		<str id="saveClose">Save &amp; Close</str>
-		<str id="close">Close</str>
-		<str id="notNow">Not Now</str>
-		<str id="yes">Yes</str>
+		<str id="cancel">huỷ</str>
+		<str id="save">lưu</str>
+		<str id="saveClose">lưu &amp; đóng</str>
+		<str id="close">đóng</str>
+		<str id="notNow">để sau</str>
+		<str id="yes">đồng ý</str>
 	</group>
 
 	<group name="UIImageExplorer" prefix="uiImageExplorer.">
-		<str id="symbol">Symbol</str>
-		<str id="animation">Animation</str>
+		<str id="symbol">ký hiệu</str>
+		<str id="animation">hoạt ảnh</str>
 		<str id="atlas">Atlas</str>
-		<str id="spritemap">Spritemap</str>
+		<str id="spritemap">Biểu đồ sprite</str>
 
-		<str id="directory">Directory ({0}/)</str>
-		<str id="found">{0} {1} Found</str>
-		<str id="foundplural">{0} {1} Found</str>
-		<str id="notFound">#NO {0}s Found#</str>
-		<str id="foundAtlas">{0} Spritemap Found</str>
-		<str id="foundAtlasplural">{0} Spritemaps Found</str>
+		<str id="directory">thư mục ({0}/)</str>
+		<str id="found">{0} {1} tìm thấy</str>
+		<str id="foundplural">{0} {1} tìm thấy</str>
+		<str id="notFound">#tìm thấy {0}s#</str>
+		<str id="foundAtlas">tìm thấy {0} sprite</str>
+		<str id="foundAtlasplural">tìm thấy nhiều {0} sprite</str>
 
-		<str id="fileAlreadyExists">The following files alreadly exist: \n\n{0}\n\nIMPORTANT: OVERRIDING CAN NOT BE UNDONE!</str>
-		<str id="override">Override Files</str>
-		<str id="useExisting">Use Existing</str>
+		<str id="fileAlreadyExists">thư mục đã tồn tại : \n\n{0}\n\nQUAN TRỌNG: GHI ĐÈ KHÔNG THỂ HOÀN TÁC!</str>
+		<str id="override">ghi đề tệp</str>
+		<str id="useExisting">dùng cái hiện tại</str>
 	</group>
 
 	<group name="EditorPicker" prefix="editor.">
-		<str id="alphabet.name">Alphabet Editor</str>
-		<str id="chart.name">Chart Editor</str>
-		<str id="character.name">Character Editor</str>
-		<str id="stage.name">Stage Editor</str>
-		<str id="uiDebug.name">UI Debug State</str>
+		<str id="alphabet.name">Tuỳ chỉnh bảng chữ cái</str>
+		<str id="chart.name">tuỳ chỉnh chart</str>
+		<str id="character.name">tuỳ chỉnh nhân vật</str>
+		<str id="stage.name">tuỳ chỉnh sân khấu</str>
+		<str id="uiDebug.name">trạng thái debug</str>
 		<str id="wiki.name">Wiki</str>
-		<str id="debugOptions.name">Debug Options</str>
+		<str id="debugOptions.name">tuỳ chọn debug</str>
 	</group>
 
 	<group name="ChartEditor">
 		<group name="CharterSelection" prefix="charterSelection.">
-			<str id="desc">Select a song to modify the charts from.</str>
-			<str id="acceptSong">Press ACCEPT to choose a difficulty to edit.</str>
-			<str id="acceptVariation">Press ACCEPT to choose a song variation to edit.</str>
-			<str id="acceptDifficulty">Press ACCEPT to edit the chart for the selected difficulty.</str>
-			<str id="selectDifficulty">Select a difficulty to continue.</str>
-			<str id="newDifficulty">New Difficulty</str>
-			<str id="newDifficultyDesc">Press ACCEPT to create a new chart difficulty.</str>
-			<str id="newSong">New Song</str>
-			<str id="newSongDesc">Press ACCEPT to create a new song.</str>
-			<str id="newVariation">New Variation</str>
-			<str id="newVariationDesc">Press ACCEPT to create a new song variation.</str>
+			<str id="desc">chọn 1 bài hát chỉnh sửa chart từ.</str>
+			<str id="acceptSong">Nhấn ACCEPT để chọn độ khó để chỉnh sửa.</str>
+			<str id="acceptVariation">Nhấn ACCEPT để chọn một biến thể bài nhạc để chỉnh sửa.</str>
+			<str id="acceptDifficulty">Nhấn ACCEPT để chỉnh sửa biểu đồ cho độ khó đã chọn.</str>
+			<str id="selectDifficulty">Chọn 1 độ khó để tiếp tục.</str>
+			<str id="newDifficulty">Đọ khó mới</str>
+			<str id="newDifficultyDesc">Nhấn ACCEPT để tạo độ khó mới cho chart.</str>
+			<str id="newSong">Bài hát mới</str>
+			<str id="newSongDesc">Nhấn ACCEPT để tạo một bài nhạc mới.</str>
+			<str id="newVariation">Biến thể mới</str>
+			<str id="newVariationDesc">Nhấn ACCEPT để tạo một biến thể bài nhạc mới.</str>
 		</group>
 
 		<group name="ChartCreationScreen" prefix="chartCreation.">
-			<str id="title">Creating New Chart</str>
-			<str id="info">Chart Info</str>
-			<str id="diffName">Difficulty Name</str>
-			<str id="stage">Stage</str>
-			<str id="scrollSpeed">Scroll Speed</str>
+			<str id="title">Tạo chart mới</str>
+			<str id="info">Thông tin chart</str>
+			<str id="diffName">tên độ khó</str>
+			<str id="stage">Sân khấu</str>
+			<str id="scrollSpeed">Tốc độ note</str>
 
-			<str id="strumLineList">Strumlines $* Atleast 1 Strumline Required$</str>
+			<str id="strumLineList">Strumlines $* Yêu cầu ít nhất 1 Strumline$</str>
 			<str id="strumLine.format">Strumline - #{0}</str>
 
 			<group name="Warnings" prefix="warnings.">
-				<str id="song-exists-title">Creating Song: Error!</str>
-				<str id="song-exists-body">The song you are trying to create already exists, if you would like to override it delete the song first!</str>
-				<str id="chart-exists-title">Creating Chart: Error!</str>
-				<str id="chart-exists-body">The chart you are trying to create already exists, if you would like to override it delete the chart first!</str>
+				<str id="song-exists-title">Tạo bài nhạc: Lỗi!</str>
+				<str id="song-exists-body">Bài nhạc bạn đang cố gắng tạo đã tồn tại, nếu bạn muốn ghi đè lên nó, hãy xóa bài nhạc đó trước!</str>
+				<str id="chart-exists-title">Tạo chart: Lỗi!</str>
+				<str id="chart-exists-body">Chart bạn đang cố gắng tạo đã tồn tại, nếu bạn muốn ghi đè lên nó, hãy xóa chart đó trước!</str>
 			</group>
 		</group>
 
 		<group name="ChartDataScreen" prefix="chartDataScreen.">
-			<str id="title">Chart Properties</str>
-			<str id="editChartData">Edit Chart Data</str>
-			<str id="stage">Stage</str>
-			<str id="scrollSpeed">Scroll Speed</str>
+			<str id="title">Thuộc tính chart</str>
+			<str id="editChartData">Chỉnh sửa dữ liệu chart</str>
+			<str id="stage">Sân khấu</str>
+			<str id="scrollSpeed">Tốc độ note</str>
 		</group>
 
 		<group name="SongPosInfo" prefix="songPosInfo.">
@@ -90,90 +90,90 @@
 		</group>
 
 		<group name="CharterEventScreen" prefix="charterEventScreen.">
-			<str id="title-creating">Create Event Group</str>
-			<str id="title-editing">Edit Event Group</str>
+			<str id="title-creating">Tạo Nhóm Sự Kiện</str>
+			<str id="title-editing">Chỉnh sửa Nhóm Sự kiện</str>
 
-			<str id="noEvent">No Event</str>
+			<str id="noEvent">Không có sự kiện</str>
 
 			<str id="strumLine.format">Strumline #{0} ({1})</str>
 		</group>
 
 		<group name="CharterEventTypeSelection" prefix="charterEventTypeSelection.">
-			<str id="title">Choose an event type...</str>
+			<str id="title">ChooseChọn một loại sự kiện...</str>
 		</group>
 
 		<group name="CharterMetaDataScreen" prefix="charterMetaDataScreen.">
-			<str id="title">Edit Metadata</str>
+			<str id="title">Chỉnh sửa Metadata</str>
 
-			<str id="songData">Song Data</str>
-			<str id="songName">Song Name</str>
-			<str id="variation">Song Variation</str>
+			<str id="songData">Dữ liệu nhạc</str>
+			<str id="songName">Tên bài nhạc</str>
+			<str id="variation">Biến thể nhạc</str>
 			<str id="bpm">BPM</str>
-			<str id="timeSignature">Time Signature</str>
-			<str id="menusData">Menus Data (Freeplay/Story)</str>
-			<str id="displayName">Display Name</str>
+			<str id="timeSignature">Nhịp độ</str>
+			<str id="menusData">Dữ liệu menus (Freeplay/Story)</str>
+			<str id="displayName">Tên hiển thị</str>
 			<str id="icon">Icon</str>
-			<str id="modesAllowed">Modes Allowed</str>
-			<str id="color">Color</str>
-			<str id="difficulties">Difficulties</str>
-			<str id="customValues">Custom Values (Advanced)</str>
-			<str id="needsVoices">Needs Voices</str>
+			<str id="modesAllowed">Các chế độ cho phép</str>
+			<str id="color">Màu</str>
+			<str id="difficulties">Độ khó</str>
+			<str id="customValues">Giá trị Tùy chỉnh (Nâng cao)</str>
+			<str id="needsVoices">Cần Voices</str>
 
-			<str id="opponentMode">Opponent Mode</str>
-			<str id="coopAllowed">Co-op Mode</str>
+			<str id="opponentMode">Chế độ đối thủ</str>
+			<str id="coopAllowed">Chế độ Co-op</str>
 		</group>
 
 		<group name="CharterNoteTypesList" prefix="charterNoteTypesList.">
-			<str id="title">Note Types List Editor</str>
+			<str id="title">Trình chỉnh sửa danh sách loại Note</str>
 
-			<str id="editNoteTypes">Edit Note Types</str>
-			<str id="editType">Note Type {0}</str>
+			<str id="editNoteTypes">Chỉnh sửa loại Note</str>
+			<str id="editType">Loại Note {0}</str>
 		</group>
 
 		<group name="CharterStrumlineScreen" prefix="charterStrumlineScreen.">
-			<str id="win-title-creating">Creating strumline {0}</str>
-			<str id="win-title-editing">Editing strumline {0} properties</str>
+			<str id="win-title-creating">Tạo strumline {0}</str>
+			<str id="win-title-editing">Chỉnh sửa thuộc tính strumline {0} </str>
 
-			<str id="title-creating">Create New Strumline</str>
-			<str id="title-editing">Edit Strumline Properties</str>
+			<str id="title-creating">Tạo strumline mới</str>
+			<str id="title-editing">Chỉnh sửa thuộc tính Strumline</str>
 		</group>
 
 		<group name="SongCreationScreen" prefix="songCreationScreen.">
-			<str id="win-title">Creating New Song</str>
-			<str id="win-title-importing">Importing Song</str>
-			<str id="title">Song Info</str>
+			<str id="win-title">Tạo bài nhạc mới</str>
+			<str id="win-title-importing">Đang nhập bài nhạc</str>
+			<str id="title">Thông tin bài nhạc</str>
 
-			<str id="instAudio">Inst Audio File $* Required*$</str>
-			<str id="voicesAudio">Vocal Audio File</str>
+			<str id="instAudio">Tệp Inst Audio $* Cần thiết*$</str>
+			<str id="voicesAudio">Tệp Vocal Audio</str>
 
-			<str id="importFrom">Import from...</str>
-			<str id="importSource">Import Source:</str>
+			<str id="importFrom">Nhập từ...</str>
+			<str id="importSource">Nhập từ nguồn:</str>
 			<str id="legacyOrPsych">Psych/Legacy FNF</str>
 			<str id="vslice">V-Slice</str>
 			<str id="vsliceProject">V-Slice Project (.fnfc)</str>
-			<str id="importChartFormat">Chart Format</str>
-			<str id="importAudios">Add Audios</str>
-			<str id="songFileName">Song file name $* Required$</str>
-			<str id="songDataFile">Data/Chart File $* Required$</str>
-			<str id="songMetaFile">Meta File $* Required$</str>
+			<str id="importChartFormat">Định dạng Chart</str>
+			<str id="importAudios">Thêm Audios</str>
+			<str id="songFileName">Tên tệp bài nhạc $* Cần thiết$</str>
+			<str id="songDataFile">Têọ Dữ liệu/Chart $* Cần thiết$</str>
+			<str id="songMetaFile">Tệp Meta $* Cần thiết$</str>
 
-			<str id="back">Back</str>
-			<str id="next">Next</str>
+			<str id="back">Quay lại</str>
+			<str id="next">Tiếp tục</str>
 		</group>
 
 		<group name="StrumlineOptions" prefix="charterStrumLine.">
-			<str id="characters">Characters</str>
-			<str id="newChar">New Char</str>
-			<str id="type">Type</str>
-			<str id="scrollSpeed">Scroll Speed</str>
-			<str id="stagePos">Stage Position</str>
-			<str id="scale">Scale</str>
-			<str id="spacing">Spacing</str>
-			<str id="hudPos">Hud Position (X [Ratio 0-1],Y)</str>
-			<str id="visible">Visible?</str>
-			<str id="useChartScrollSpeed">Uses charts scroll speed?</str>
-			<str id="vocalSuffix">Vocal Suffix</str>
-			<str id="keyCount">Key Count</str>
+			<str id="characters">Nhân vật</str>
+			<str id="newChar">Nhân vật mới</str>
+			<str id="type">Loại</str>
+			<str id="scrollSpeed">Tốc độ note</str>
+			<str id="stagePos">Điểm sân khấu</str>
+			<str id="scale">Độ lớn</str>
+			<str id="spacing">Khoảng cách</str>
+			<str id="hudPos">Vị trí Hud (X [Ratio 0-1],Y)</str>
+			<str id="visible">Ẩn?</str>
+			<str id="useChartScrollSpeed">Dùng tốc độ note của chart?</str>
+			<str id="vocalSuffix">Hậu tố Vocal</str>
+			<str id="keyCount">Số lượng phím</str>
 		</group>
 
 		<group name="ChartEditor" prefix="charter.">
@@ -181,39 +181,39 @@
 			<group name="TopBar">
 				<str id="topBar.file">File</str>
 				<group name="FileMenu" prefix="file.">
-					<str id="new">New</str>
-					<str id="save">Save</str>
-					<str id="saveAs">Save As...</str>
-					<str id="saveGlobalEvents">Save Global Events</str>
-					<str id="saveGlobalEventsAs">Save Global Events As...</str>
-					<str id="saveNoLocalEvents">Save Chart without Local Events</str>
-					<str id="saveNoLocalEventsAs">Save Chart without Local Events As...</str>
-					<str id="saveMeta">Save Meta</str>
-					<str id="saveMetaAs">Save Meta As...</str>
-					<str id="exportFnfLegacy">Export For FNF Legacy...</str>
-					<str id="exportPsych">Export For Psych Engine...</str>
-					<str id="exit">Exit</str>
+					<str id="new">Mới</str>
+					<str id="save">Lưu</str>
+					<str id="saveAs">Lưu thành...</str>
+					<str id="saveGlobalEvents">Lưu Sự kiện Toàn cục</str>
+					<str id="saveGlobalEventsAs">Lưu Sự kiện Toàn cục thành...</str>
+					<str id="saveNoLocalEvents">Lưu Biểu đồ không có Sự kiện Cục bộ</str>
+					<str id="saveNoLocalEventsAs">Lưu Biểu đồ không có Sự kiện Cục bộ thành...</str>
+					<str id="saveMeta">Lưu Meta</str>
+					<str id="saveMetaAs">Lưu Meta thành...</str>
+					<str id="exportFnfLegacy">Xuất ra cho FNF Legacy...</str>
+					<str id="exportPsych">Xuất ra cho Psych Engine...</str>
+					<str id="exit">Thoát</str>
 				</group>
 
-				<str id="topBar.edit">Edit</str>
+				<str id="topBar.edit">Chỉnh sửa</str>
 				<group name="EditMenu" prefix="edit.">
-					<str id="undo">Undo</str>
-					<str id="redo">Redo</str>
-					<str id="copy">Copy</str>
-					<str id="paste">Paste</str>
-					<str id="cut">Cut</str>
-					<str id="delete">Delete</str>
+					<str id="undo">Hoàn tác</str>
+					<str id="redo">Hoàn tác lại</str>
+					<str id="copy">Sao chép</str>
+					<str id="paste">Dán</str>
+					<str id="cut">Cắt</str>
+					<str id="delete">Xoá</str>
 				</group>
 
 				<str id="topBar.chart">Chart</str>
 				<group name="ChartMenu" prefix="chart.">
-					<str id="playtest">Playtest</str>
-					<str id="playtestHere">Playtest here</str>
-					<str id="playtestOpponent">Playtest as opponent</str>
-					<str id="playtestOpponentHere">Playtest as opponent here</str>
-					<str id="enableScripts">Enable scripts during playtesting</str>
-					<str id="editChartData">Edit chart data</str>
-					<str id="editMetadata">Edit metadata information</str>
+					<str id="playtest">Chơi thử</str>
+					<str id="playtestHere">chơi thử tại đây</str>
+					<str id="playtestOpponent">Chơi thử với tư cách đối thủ</str>
+					<str id="playtestOpponentHere">Chơi thử với tư cách đối thủ tại đây</str>
+					<str id="enableScripts">Bật script trong khi chơi thử</str>
+					<str id="editChartData">Chỉnh sửa dữ kiệu chart</str>
+					<str id="editMetadata">Chỉnh sửa thông tin metadata</str>
 				</group>
 
 				<str id="topBar.view">View</str>
