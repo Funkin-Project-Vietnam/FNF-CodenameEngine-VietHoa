@@ -5,36 +5,36 @@
 	<group name="OptionsMenu">
 		<str id="optionsMenu.advanced">Nâng cao</str>
 		<str id="optionsMenu.header.title">Menu cài đặt</str>
-		<str id="optionsMenu.header.desc">Select a category to continue.</str>
+		<str id="optionsMenu.header.desc">Chọn một mục để tiếp tục.</str>
 
 		<str id="optionsTree.controls-name">Phím</str>
 		<str id="optionsTree.controls-desc">Thay đổi phím cho Người chơi 1 và Người Chơi 2!</str>
 
 		<str id="optionsTree.gameplay-name">Lối chơi</str>
-		<str id="optionsTree.gameplay-desc">Change Gameplay options such as Downscroll, Scroll Speed, Naughtyness...</str>
-		<str id="optionsTree.gameplay.advanced-desc">Change more advanced options such as Streaming Audio...</str>
+		<str id="optionsTree.gameplay-desc">Thay đổi các tùy chọn lối chơi như Downscroll, Tốc độ cuộn, Độ nghịch ngợm...</str>
+		<str id="optionsTree.gameplay.advanced-desc">Thay đổi tuỳ chọn nâng cao như Âm thanh trực tuyến...</str>
 
 		<str id="optionsTree.appearance-name">Vẻ ngoài</str>
-		<str id="optionsTree.appearance-desc">Change Appearance options such as Flashing menus...</str>
+		<str id="optionsTree.appearance-desc">Thay đổi các tuỳ chọn cho vẻ ngoài như menus Chớp nháy...</str>
 		<str id="optionsTree.appearance.advanced-desc">Change more advanced options such as VRAM-Only Sprites, Antialiasing, Shaders</str>
 
 		<str id="optionsTree.language-name">Ngôn ngữ</str>
 		<str id="optionsTree.language-desc">Thay đổi ngôn ngữ mà engine sử dụng.</str>
 
 		<str id="optionsTree.miscellaneous-name">Khác</str>
-		<str id="optionsTree.miscellaneous-desc">Use this menu to reset save data or engine settings.</str>
+		<str id="optionsTree.miscellaneous-desc">Sử dụng menu này để đặt lại dữ liệu lưu hoặc cài đặt engine.</str>
 
 		<str id="optionsTree.debug-name">Tuỳ chọn Debug</str>
 		<str id="optionsTree.debug-desc">Tuỳ chọn Debug dành cho nhà phát triển.</str>
 	</group>
 
 	<group name="KeybindOptions" prefix="KeybindsOptions.">
-		<str id="left">Left</str>
-		<str id="down">Down</str>
-		<str id="up">Up</str>
-		<str id="right">Right</str>
+		<str id="left">Trái</str>
+		<str id="down">Xuống</str>
+		<str id="up">Lên</str>
+		<str id="right">Phải</str>
 
-		<str id="category.notes">Notes</str>
+		<str id="category.notes">Nốt</str>
 
 		<str id="category.ui">UI</str>
 		<group name="ui" prefix="ui.">
@@ -42,7 +42,7 @@
 			<str id="back">Back</str>
 			<str id="reset">Reset</str>
 			<str id="pause">Pause</str>
-			<str id="changeMode">Change Mode</str>
+			<str id="changeMode">Đổi Mode</str>
 		</group>
 
 		<str id="category.engine">Engine</str>
@@ -65,41 +65,41 @@
 
 	<group name="AppearanceOptions" prefix="AppearanceOptions.">
 		<str id="framerate-name">Tốc độ khung hình</str>
-		<str id="framerate-desc">Pretty self explanatory, isn't it?</str>
+		<str id="framerate-desc">Khá là dễ hiểu, đúng không?</str>
 
-		<str id="flashingMenu-name">Flashing Menu</str>
-		<str id="flashingMenu-desc">If unchecked, will disable menu flashing when you select an option in the Main Menu, and other flashes will be slower.</str>
+		<str id="flashingMenu-name">Menu chớp nháy</str>
+		<str id="flashingMenu-desc">Nếu bỏ chọn, sẽ tắt nhấp nháy menu khi bạn chọn một tùy chọn trong Menu chính, và các nhấp nháy khác sẽ chậm hơn.</str>
 
-		<str id="colorHealthBar-name">Colored Healthbar</str>
-		<str id="colorHealthBar-desc">If unchecked, the game will use the original red/green health bar from the week 6 fnf game.</str>
+		<str id="colorHealthBar-name">Thanh máu màu</str>
+		<str id="colorHealthBar-desc">Nếu bỏ chọn, game sẽ sử dụng thanh máu đỏ/xanh lá ban đầu từ fnf week 6.</str>
 
-		<str id="week6PixelPerfect-name">Pixel Perfect Effect</str>
-		<str id="week6PixelPerfect-desc">If checked, Week 6 or other pixel stages will have a pixel perfect effect to it enabled, aligning every pixel on the screen.</str>
+		<str id="week6PixelPerfect-name">Hiệu ứng Pixel Perfect</str>
+		<str id="week6PixelPerfect-desc">Nếu chọn, Week 6 hoặc các các stage pixel khác sẽ có hiệu ứng Pixel Perfect được bật, căn chỉnh mọi điểm ảnh trên màn hình.</str>
 
 		<group name="AppearanceOptionsAdvanced" prefix="Advanced.">
 			<str id="quality-name">Đồ Hoạ</str>
-			<str id="quality-desc">Quality modes to choose, "LOW" = Disable every heavy visual effects as it can get to smoothen the gameplay, "HIGH" = Enable all of the visual effects, with the cost of performance, "CUSTOM" = Allow of custom options that is available in Advanced.</str>
+			<str id="quality-desc">Các chế độ đồ hoạ để lựa chọn, "THẤP" = Tắt tất cả các hiệu ứng hình ảnh nặng nhất có thể để làm mượt trải nghiệm chơi game, "CAO" = Bật toàn bộ hiệu ứng hình ảnh, nhưng sẽ ảnh hưởng đến hiệu suất, "CUSTOM" = Cho phép tùy chỉnh các tùy chọn có sẵn trong phần Nâng cao.</str>
 			<str id="quality-low">THẤP</str>
 			<str id="quality-high">CAO</str>
 			<str id="quality-custom">TUỲ CHỈNH</str>
 
-			<str id="antialiasing-name">Antialiasing</str>
-			<str id="antialiasing-desc">If unchecked, will disable antialiasing on every sprite. Can boost performances at the cost of sharper, more pixely sprites.</str>
+			<str id="antialiasing-name">Khử răng cưa</str>
+			<str id="antialiasing-desc">Nếu bỏ chọn, sẽ tắt "Khử răng cưa" trên mọi hình ảnh. Có thể tăng hiệu suất nhưng đổi lại các hình ảnh sẽ sắc nét hơn và bị răng cưa, trông giống như pixel hơn.</str>
 
-			<str id="lowMemoryMode-name">Low Memory Mode</str>
-			<str id="lowMemoryMode-desc">If checked, will disable certain background elements in stages to reduce memory usage.</str>
+			<str id="lowMemoryMode-name">Chế độ Bộ nhớ Thấp</str>
+			<str id="lowMemoryMode-desc">Nếu chọn, sẽ tắt một số yếu tố nền trong màn chơi để giảm mức sử dụng bộ nhớ.</str>
 
 			<str id="gameplayShaders-name">Gameplay Shaders</str>
-			<str id="gameplayShaders-desc">If unchecked, gameplay shaders (visual effects like Thorns's Chromatic Aberration) wont be loaded; this may be helpful on weak devices.</str>
+			<str id="gameplayShaders-desc">Nếu bỏ chọn, shader trong gameplay (các hiệu ứng hình ảnh như hiệu ứng Chromatic Aberration của Thorn's) sẽ không được tải; điều này có thể hữu ích trên các thiết bị yếu.</str>
 
-			<str id="gpuOnlyBitmaps-name">VRAM-Only Sprites</str>
-			<str id="gpuOnlyBitmaps-desc">If checked, will only store the bitmaps in the GPU, freeing a LOT of memory (EXPERIMENTAL). Turning this off will consume a lot of memory, especially on bigger sprites. If you aren't sure, leave this on.</str>
+			<str id="gpuOnlyBitmaps-name">Sprites chỉ ở VRAM</str>
+			<str id="gpuOnlyBitmaps-desc">Nếu chọn, chỉ lưu trữ các bitmap trong GPU, giải phóng RẤT NHIỀU bộ nhớ (THỬ NGHIỆM). Tắt tùy chọn này sẽ tiêu tốn nhiều bộ nhớ, đặc biệt với các sprite lớn. Nếu bạn không chắc, hãy để bật.</str>
 		</group>
 	</group>
 
 	<group name="GameplayOptions" prefix="GameplayOptions.">
 		<str id="downscroll-name">Downscroll</str>
-		<str id="downscroll-desc">If checked, notes will go from up to down instead of down to up, as if they're falling.</str>
+		<str id="downscroll-desc">Nếu chọn, nốt will go from up to down instead of down to up, as if they're falling.</str>
 
 		<str id="ghostTapping-name">Ghost Tapping</str>
 		<str id="ghostTapping-desc">If unchecked, trying to hit any strum that have no note that can be hit will cause a miss.</str>
