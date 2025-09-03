@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <language>
-	<str id="optionsMenu.desc-missing">No Description</str>
+	<str id="optionsMenu.desc-missing">Không có mô tả</str>
 
 	<group name="OptionsMenu">
-		<str id="optionsMenu.advanced">Advanced</str>
-		<str id="optionsMenu.header.title">Options Menu</str>
+		<str id="optionsMenu.advanced">Nâng cao</str>
+		<str id="optionsMenu.header.title">Menu cài đặt</str>
 		<str id="optionsMenu.header.desc">Select a category to continue.</str>
 
-		<str id="optionsTree.controls-name">Controls</str>
-		<str id="optionsTree.controls-desc">Change Controls for Player 1 and Player 2!</str>
+		<str id="optionsTree.controls-name">Phím</str>
+		<str id="optionsTree.controls-desc">Thay đổi phím cho Người chơi 1 và Người Chơi 2!</str>
 
-		<str id="optionsTree.gameplay-name">Gameplay</str>
+		<str id="optionsTree.gameplay-name">Lối chơi</str>
 		<str id="optionsTree.gameplay-desc">Change Gameplay options such as Downscroll, Scroll Speed, Naughtyness...</str>
 		<str id="optionsTree.gameplay.advanced-desc">Change more advanced options such as Streaming Audio...</str>
 
-		<str id="optionsTree.appearance-name">Appearance</str>
+		<str id="optionsTree.appearance-name">Vẻ ngoài</str>
 		<str id="optionsTree.appearance-desc">Change Appearance options such as Flashing menus...</str>
 		<str id="optionsTree.appearance.advanced-desc">Change more advanced options such as VRAM-Only Sprites, Antialiasing, Shaders</str>
 
-		<str id="optionsTree.language-name">Language</str>
-		<str id="optionsTree.language-desc">Change the language that the engine uses.</str>
+		<str id="optionsTree.language-name">Ngôn ngữ</str>
+		<str id="optionsTree.language-desc">Thay đổi ngôn ngữ mà engine sử dụng.</str>
 
-		<str id="optionsTree.miscellaneous-name">Miscellaneous</str>
+		<str id="optionsTree.miscellaneous-name">Khác</str>
 		<str id="optionsTree.miscellaneous-desc">Use this menu to reset save data or engine settings.</str>
 
-		<str id="optionsTree.debug-name">Debug Options</str>
-		<str id="optionsTree.debug-desc">Debug Options for Developer Mode.</str>
+		<str id="optionsTree.debug-name">Tuỳ chọn Debug</str>
+		<str id="optionsTree.debug-desc">Tuỳ chọn Debug dành cho nhà phát triển.</str>
 	</group>
 
 	<group name="KeybindOptions" prefix="KeybindsOptions.">
@@ -47,19 +47,19 @@
 
 		<str id="category.engine">Engine</str>
 		<group name="engine" prefix="engine.">
-			<str id="switchMod">Switch Mod</str>
+			<str id="switchMod">Đổi mods</str>
 		</group>
 
-		<str id="category.volume">Volume</str>
-		<str id="volume.up">Up</str>
-		<str id="volume.down">Down</str>
-		<str id="volume.mute">Mute</str>
+		<str id="category.volume">Âm lượng</str>
+		<str id="volume.up">Lên</str>
+		<str id="volume.down">Xuống</str>
+		<str id="volume.mute">Tắt âm</str>
 
-		<str id="category.developer">Developer</str>
+		<str id="category.developer">Nhà phát triển</str>
 		<group name="developer" prefix="developer.">
-			<str id="devMenus">Developer Menus</str>
-			<str id="openConsole">Open Console</str>
-			<str id="reloadState">Reload State</str>
+			<str id="devMenus">Menus của NPT</str>
+			<str id="openConsole">Mở Console</str>
+			<str id="reloadState">Tải lại State</str>
 		</group>
 	</group>
 
@@ -77,11 +77,11 @@
 		<str id="week6PixelPerfect-desc">If checked, Week 6 or other pixel stages will have a pixel perfect effect to it enabled, aligning every pixel on the screen.</str>
 
 		<group name="AppearanceOptionsAdvanced" prefix="Advanced.">
-			<str id="quality-name">Quality</str>
+			<str id="quality-name">Đồ Hoạ</str>
 			<str id="quality-desc">Quality modes to choose, "LOW" = Disable every heavy visual effects as it can get to smoothen the gameplay, "HIGH" = Enable all of the visual effects, with the cost of performance, "CUSTOM" = Allow of custom options that is available in Advanced.</str>
-			<str id="quality-low">LOW</str>
-			<str id="quality-high">HIGH</str>
-			<str id="quality-custom">CUSTOM</str>
+			<str id="quality-low">THẤP</str>
+			<str id="quality-high">CAO</str>
+			<str id="quality-custom">TUỲ CHỈNH</str>
 
 			<str id="antialiasing-name">Antialiasing</str>
 			<str id="antialiasing-desc">If unchecked, will disable antialiasing on every sprite. Can boost performances at the cost of sharper, more pixely sprites.</str>
