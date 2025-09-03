@@ -7,7 +7,7 @@
 		<str id="optionsMenu.header.title">Menu cài đặt</str>
 		<str id="optionsMenu.header.desc">Chọn một mục để tiếp tục.</str>
 
-		<str id="optionsTree.controls-name">Phím</str>
+		<str id="optionsTree.controls-name">Điều khiển</str>
 		<str id="optionsTree.controls-desc">Thay đổi phím cho Người chơi 1 và Người Chơi 2!</str>
 
 		<str id="optionsTree.gameplay-name">Lối chơi</str>
