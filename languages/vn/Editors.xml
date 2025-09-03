@@ -337,119 +337,119 @@
 
 	<group name="CharacterEditor">
 		<group name="CharacterSelection" prefix="characterSelection.">
-			<str id="acceptFolder">Press ACCEPT to edit this folder.</str>
-			<str id="acceptCharacter">Press ACCEPT to edit this character.</str>
-			<str id="newCharacter">New Character</str>
-			<str id="newCharacterDesc">Press ACCEPT to create a new character.</str>
-			<str id="desc">Select a character to edit</str>
-			<str id="desc-folder">Select a character to edit in {0}</str>
+			<str id="acceptFolder">Nhấn ACCEPT để tuỳ chỉnh thư mục đó.</str>
+			<str id="acceptCharacter">Nhấn ACCEPT để tuỳ chỉnh nhân vật đó.</str>
+			<str id="newCharacter">Nhân vật mới</str>
+			<str id="newCharacterDesc">Nhấn ACCEPT để tạo nhân vật mới.</str>
+			<str id="desc">Lựa chọn 1 nhân vật để tuỳ chỉnh</str>
+			<str id="desc-folder">Lựa chọn 1 nhân vật để tuỳ chỉnh trong {0}</str>
 		</group>
 
 		<group name="CharacterInfoScreen" prefix="characterInfoScreen.">
-			<str id="win-title">Editing Character</str>
-			<str id="title">Edit Character Info</str>
+			<str id="win-title">Chỉnh nhân vật</str>
+			<str id="title">Tuỳ chỉnh thông tin nhân vật</str>
 			<str id="icon">Icon</str>
-			<str id="iconColor">Icon Color</str>
-			<str id="singDuration">Sing Duration</str>
-			<str id="useSingDuration">Use Sing Duration?</str>
-			<str id="customValues">Custom Values (Advanced)</str>
+			<str id="iconColor">Màu Icon</str>
+			<str id="singDuration">Thời lượng hát</str>
+			<str id="useSingDuration">Sử dụng thời lượng hát?</str>
+			<str id="customValues">Giá trị tuỳ chỉnh (Nâng cao)</str>
 		</group>
 
 		<group name="CharacterEditor" prefix="characterEditor.">
 			<group name="TopBar">
-				<str id="topBar.file">File</str>
+				<str id="topBar.file">Tệp</str>
 				<group name="FileMenu" prefix="file.">
-					<str id="new">New</str>
-					<str id="save">Save</str>
-					<str id="saveAs">Save As...</str>
-					<str id="exit">Exit</str>
+					<str id="new">Mới</str>
+					<str id="save">Lưu</str>
+					<str id="saveAs">Lưu với...</str>
+					<str id="exit">Thoát</str>
 				</group>
 
-				<str id="topBar.edit">Edit</str>
+				<str id="topBar.edit">Chỉnh</str>
 				<group name="EditMenu" prefix="edit.">
-					<str id="copyOffset">Copy Offset</str>
-					<str id="pasteOffset">Paste Offset</str>
-					<str id="undo">Undo</str>
-					<str id="redo">Redo</str>
-					<str id="editInfo">Edit information</str>
-					<str id="editSprite">Edit sprite</str>
+					<str id="copyOffset">Sao chép Offset</str>
+					<str id="pasteOffset">Dán Offset</str>
+					<str id="undo">Hoàn tác</str>
+					<str id="redo">Làm lại</str>
+					<str id="editInfo">Chỉnh sửa thông tin</str>
+					<str id="editSprite">Chỉnh sửa hình ảnh</str>
 				</group>
 
 				<str id="topBar.offset">Offsets</str>
 				<group name="OffsetsMenu" prefix="offset.">
-					<str id="moveLeft">Move Left</str>
-					<str id="moveUp">Move Up</str>
-					<str id="moveDown">Move Down</str>
-					<str id="moveRight">Move Right</str>
-					<str id="moveExtraLeft">Move Extra Left</str>
-					<str id="moveExtraUp">Move Extra Up</str>
-					<str id="moveExtraDown">Move Extra Down</str>
-					<str id="moveExtraRight">Move Extra Right</str>
-					<str id="dragOffsetsMouse">Drag Offsets With Mouse?</str>
-					<str id="clearOffsets">Clear Offsets</str>
+					<str id="moveLeft">Qua trái</str>
+					<str id="moveUp">Đi lên</str>
+					<str id="moveDown">Đi xuống</str>
+					<str id="moveRight">Qua phải</str>
+					<str id="moveExtraLeft">Qua trái thêm</str>
+					<str id="moveExtraUp">Đi lên thêm</str>
+					<str id="moveExtraDown">Đi xuống thêm</str>
+					<str id="moveExtraRight">Qua phải thêm</str>
+					<str id="dragOffsetsMouse">Kéo Offsets với chuột?</str>
+					<str id="clearOffsets">Xoá Offsets</str>
 				</group>
 
-				<str id="topBar.stage">Stage</str>
+				<str id="topBar.stage">Sân khấu</str>
 				<group name="StageMenu" prefix="stage.">
-					<str id="useStage">Use "{0}"</str>
-					<str id="useNone">Use No Stage</str>
+					<str id="useStage">Sử dụng "{0}"</str>
+					<str id="useNone">Không sử dụng sân khấu nào</str>
 				</group>
 
 				<str id="topBar.view">View</str>
 				<group name="ViewMenu" prefix="view.">
-					<str id="zoomIn">Zoom in</str>
-					<str id="zoomOut">Zoom out</str>
-					<str id="resetZoom">Reset Zoom</str>
-					<str id="charHitbox">Character Hitbox?</str>
-					<str id="charCam">Character Camera?</str>
+					<str id="zoomIn">Zoom vào</str>
+					<str id="zoomOut">Zoom ra</str>
+					<str id="resetZoom">Đặt lại Zoom</str>
+					<str id="charHitbox">Hitbox nhân vật?</str>
+					<str id="charCam">Camera nhân vật?</str>
 					<str id="axis">XY Axis?</str>
 				</group>
 
-				<str id="topBar.animation">Animation</str>
+				<str id="topBar.animation">Hoạt hình</str>
 				<group name="AnimationMenu" prefix="animation.">
-					<str id="playAnim">Play Animation</str>
-					<str id="stopAnim">Stop Animation</str>
-					<str id="changeAnimUp">Change Animation ↑</str>
-					<str id="changeAnimDown">Change Animation ↓</str>
-					<str id="playAnimOnOffset">Play Animation On Offset?</str>
+					<str id="playAnim">Chơi hoạt hình</str>
+					<str id="stopAnim">Dừng chơi hoạt hình</str>
+					<str id="changeAnimUp">Đổi hoạt hình ↑</str>
+					<str id="changeAnimDown">Thay đổi hoạt hình ↓</str>
+					<str id="playAnimOnOffset">Chơi hoạt hình trên Offset?</str>
 				</group>
 
 				<group name="CharacterPropertiesWindow" prefix="characterProperties.">
-					<str id="position">Position (X, Y)</str>
-					<str id="scale">Scale</str>
-					<str id="editInfo">Edit Info</str>
-					<str id="editSprite">Edit Sprite</str>
-					<str id="camPosition">Camera Position (X, Y)</str>
-					<str id="charFlipped">Flipped?</str>
-					<str id="antialiased">Antialiased?</str>
-					<str id="testCharAs">Test Character As...</str>
-					<str id="charDesign">Char Designed As...</str>
+					<str id="position">Vị trí (X, Y)</str>
+					<str id="scale">Tỉ lệ</str>
+					<str id="editInfo">Tuỳ chỉnh thông tin</str>
+					<str id="editSprite">Thay đổi hình ảnh</str>
+					<str id="camPosition">Vị trí Camera (X, Y)</str>
+					<str id="charFlipped">Lật ngược?</str>
+					<str id="antialiased">Khử răng cưa?</str>
+					<str id="testCharAs">Thử nhân vật với...</str>
+					<str id="charDesign">Nhân vật thiết kế với...</str>
 				</group>
 
 				<group name="CharacterAnimButton" prefix="characterAnim.">
-					<str id="defaultAnimName">New Anim</str>
-					<str id="name">Name</str>
-					<str id="anim">Animation</str>
-					<str id="position">Position (X, Y)</str>
+					<str id="defaultAnimName">Anim mới</str>
+					<str id="name">Tên</str>
+					<str id="anim">Hoạt hình</str>
+					<str id="position">Vị trí (X, Y)</str>
 					<str id="fps">FPS</str>
-					<str id="indices">Indices (Frames)</str>
+					<str id="indices">Chỉ số (Khung)</str>
 				</group>
 
 				<group name="CharacterSpriteScreen" prefix="characterSpriteScreen.">
-					<str id="win-title">Edit character sprite</str>
-					<str id="charImageFile">Character Image File $* Required$</str>
+					<str id="win-title">Chỉnh hình ảnh nhân vật</str>
+					<str id="charImageFile">File hình ảnh nhân vật $* Cần$</str>
 				</group>
 			</group>
 		</group>
 
 		<group name="CharacterCreationScreen" prefix="characterCreationScreen.">
-			<str id="win-title">Creating New Character</str>
-			<str id="charName">Character Name $* Required$</str>
-			<str id="charImgName">Character Image File $* Required$</str>
+			<str id="win-title">Tạo nhân vật mới</str>
+			<str id="charName">Tên nhân vật $* Cần$</str>
+			<str id="charImgName">File hình ảnh nhân vật $* Cần$</str>
 
 			<group name="Warnings" prefix="warnings.">
-				<str id="char-exists-title">Creating Character: Error!</str>
-				<str id="char-exists-body">The character you are trying to create already exists, if you would like to override it delete the character first!</str>
+				<str id="char-exists-title">Tạo nhân vật: Lỗi!</str>
+				<str id="char-exists-body">Nhân vật bạn đang tạo đã có sẵn, nếu bạn muốn ghi đè thì hãy xoá nhân vật kia trước!</str>
 			</group>
 		</group>
 	</group>
