@@ -15,7 +15,7 @@
 
 	<group name="UIImageExplorer" prefix="uiImageExplorer.">
 		<str id="symbol">ký hiệu</str>
-		<str id="animation">hoạt ảnh</str>
+		<str id="animation">Hoạt ảnh</str>
 		<str id="atlas">Atlas</str>
 		<str id="spritemap">Biểu đồ sprite</str>
 
@@ -33,12 +33,12 @@
 
 	<group name="EditorPicker" prefix="editor.">
 		<str id="alphabet.name">Tuỳ chỉnh bảng chữ cái</str>
-		<str id="chart.name">tuỳ chỉnh chart</str>
-		<str id="character.name">tuỳ chỉnh nhân vật</str>
-		<str id="stage.name">tuỳ chỉnh sân khấu</str>
-		<str id="uiDebug.name">trạng thái debug</str>
+		<str id="chart.name">Tuỳ chỉnh chart</str>
+		<str id="character.name">Tuỳ chỉnh nhân vật</str>
+		<str id="stage.name">Tuỳ chỉnh sân khấu</str>
+		<str id="uiDebug.name">Trạng thái debug</str>
 		<str id="wiki.name">Wiki</str>
-		<str id="debugOptions.name">tuỳ chọn debug</str>
+		<str id="debugOptions.name">Tuỳ chọn debug</str>
 	</group>
 
 	<group name="ChartEditor">
@@ -48,7 +48,7 @@
 			<str id="acceptVariation">Nhấn ACCEPT để chọn một biến thể bài nhạc để chỉnh sửa.</str>
 			<str id="acceptDifficulty">Nhấn ACCEPT để chỉnh sửa biểu đồ cho độ khó đã chọn.</str>
 			<str id="selectDifficulty">Chọn 1 độ khó để tiếp tục.</str>
-			<str id="newDifficulty">Đọ khó mới</str>
+			<str id="newDifficulty">Độ khó mới</str>
 			<str id="newDifficultyDesc">Nhấn ACCEPT để tạo độ khó mới cho chart.</str>
 			<str id="newSong">Bài hát mới</str>
 			<str id="newSongDesc">Nhấn ACCEPT để tạo một bài nhạc mới.</str>
@@ -218,75 +218,75 @@
 
 				<str id="topBar.view">View</str>
 				<group name="ViewMenu" prefix="view.">
-					<str id="zoomIn">Zoom in</str>
-					<str id="zoomOut">Zoom out</str>
-					<str id="resetZoom">Reset Zoom</str>
-					<str id="showSectionsSeparator">Show Sections Separator</str>
-					<str id="showBeatsSeparator">Show Beats Separator</str>
-					<str id="rainbowWaveforms">Rainbow Waveforms</str>
-					<str id="lowDetailWaveforms">Low Detail Waveforms</str>
-					<str id="scrollLeft">Scroll Left</str>
-					<str id="scrollRight">Scroll Right</str>
-					<str id="scrollReset">Reset Scroll</str>
+					<str id="zoomIn">Zoom vào</str>
+					<str id="zoomOut">Zoom ra</str>
+					<str id="resetZoom">Đặt lại Zoom</str>
+					<str id="showSectionsSeparator">Hiển thị các phần riêng biệt</str>
+					<str id="showBeatsSeparator">Hiển thị Beats riêng biệt</str>
+					<str id="rainbowWaveforms">Sóng âm cầu vồng</str>
+					<str id="lowDetailWaveforms">Sóng âm chi tiết thấp</str>
+					<str id="scrollLeft">Cuộn qua trái</str>
+					<str id="scrollRight">Cuộn qua phải</str>
+					<str id="scrollReset">Đặt lại cuộn</str>
 				</group>
 
-				<str id="topBar.song">Song</str>
+				<str id="topBar.song">Bài hát</str>
 				<group name="SongMenu" prefix="song.">
-					<str id="goStart">Go back to the start</str>
-					<str id="goEnd">Go forward to the end</str> <!-- used to be "Go to the end" -->
-					<str id="addOpponentCamera">Add camera on Opponent</str>
-					<str id="addPlayerCamera">Add camera on Player</str>
-					<str id="muteInst">Mute instrumental</str>
-					<str id="muteVoices">Mute voices</str>
+					<str id="goStart">Quay lại đầu bài</str>
+					<str id="goEnd">Đi tới cuối bài</str> <!-- used to be "Go to the end" -->
+					<str id="addOpponentCamera">Thêm camera cho Đối Thủ</str>
+					<str id="addPlayerCamera">Thêm camera cho Người Chơi</str>
+					<str id="muteInst">Tắt nhạc nền</str>
+					<str id="muteVoices">Tắt giọng</str>
 				</group>
 
 				<group name="BookmarkMenu" prefix="bookmarks.">
-					<str id="addBookmarkHere">Add Bookmark Here</str>
-					<str id="editBookmarkList">Edit Bookmark List</str>
-					<str id="goTo">Go to "{0}"</str>
-					<str id="createBookmarkTitle">Creating New Bookmark...</str>
-					<str id="createBookmarkName">Bookmark Name:</str>
-					<str id="createBookmarkColor">Bookmark Color:</str>
-					<str id="editBookmarkListTitle">Bookmark List</str>
-					<str id="editBookmarksTitle">Edit Bookmarks</str>
-					<str id="newBookmarkName">New Bookmark</str>
+					<str id="addBookmarkHere">Thêm dấu trang ở đây</str>
+					<str id="editBookmarkList">Chỉnh danh sách dấu trang</str>
+					<str id="goTo">Đi tới "{0}"</str>
+					<str id="createBookmarkTitle">Tạo dấu trang mới...</str>
+					<str id="createBookmarkName">Tên dấu trang:</str>
+					<str id="createBookmarkColor">Màu dấu trang:</str>
+					<str id="editBookmarkListTitle">Danh sách dấu trang</str>
+					<str id="editBookmarksTitle">Chỉnh sửa dấu trang</str>
+					<str id="newBookmarkName">Dấu trang mới</str>
 				</group>
 
-				<str id="topBar.note">Note</str>
+				<str id="topBar.note">Nốt</str>
 				<group name="NoteMenu" prefix="note.">
-					<str id="addSustainLength">Add sustain length</str>
-					<str id="subtractSustainLength">Subtract sustain length</str>
-					<str id="selectAll">Select all</str>
-					<str id="selectMeasure">Select measure</str>
-					<str id="editNoteTypesList">Edit Note Types List</str>
+					<str id="addSustainLength">Thêm độ dài duy trì</str>
+					<str id="subtractSustainLength">Trừ chiều dài duy trì</str>
+					<str id="selectAll">Chọn tất cả</str>
+					<str id="selectMeasure">Chọn đo lường</str>
+					<str id="editNoteTypesList">Chỉnh sửa danh sách kiểu nốt</str>
 				</group>
-				<str id="topBar.snap">Snap</str>
+				<str id="topBar.snap">Chụp</str>
 				<group name="SnapMenu" prefix="snap.">
-					<str id="increaseSnap">↑ Grid Snap</str>
-					<str id="resetSnap">Reset Grid Snap</str>
-					<str id="decreaseSnap">↓ Grid Snap</str>
+					<str id="increaseSnap">↑ Chụp lưới</str>
+					<str id="resetSnap">Đặt lại chụp lưới</str>
+					<str id="decreaseSnap">↓ Chụp lưới</str>
 
-					<str id="snap">{0}x Grid Snap</str>
+					<str id="snap">{0}x Chụp lưới</str>
 				</group>
 
-				<str id="topBar.playback">Playback</str>
+				<str id="topBar.playback">Phát lại</str>
 				<group name="PlaybackMenu" prefix="playback.">
-					<str id="play">Play/Pause</str>
-					<str id="speedRaise">↑ Speed {0}%</str>
-					<str id="speedReset">Reset Speed</str>
-					<str id="speedLower">↓ Speed {0}%</str>
-					<str id="sectionBack">Go back a section</str>
-					<str id="sectionForward">Go forward a section</str>
-					<str id="sectionStart">Go to start of section</str>
-					<str id="backStep">Go back a step</str>
-					<str id="forwardStep">Go forward a step</str>
-					<str id="metronome">Metronome</str>
-					<str id="visualMetronome">Visual metronome</str>
+					<str id="play">Chơi/Dừng</str>
+					<str id="speedRaise">↑ Tốc độ {0}%</str>
+					<str id="speedReset">Đặt lại tốc độ</str>
+					<str id="speedLower">↓ Tốc độ {0}%</str>
+					<str id="sectionBack">Quay lại phần trước</str>
+					<str id="sectionForward">Đi tới phần sau</str>
+					<str id="sectionStart">Đi đến đầu phần</str>
+					<str id="backStep">Quay lại 1 step</str>
+					<str id="forwardStep">Đi tới 1 step</str>
+					<str id="metronome">Máy đếm nhịp</str>
+					<str id="visualMetronome">Hiện đếm nhịp</str>
 				</group>
 			</group>
 
 			<group name="NoteTypes" prefix="noteTypes.">
-				<str id="default">Default Note</str>
+				<str id="default">Nốt mặc định</str>
 			</group>
 
 			<group name="EventTypes" prefix="events.">
@@ -306,18 +306,18 @@
 			</group>
 
 			<group name="StrumlineOptions" prefix="strumLine.">
-				<str id="button-name">Options ↓</str>
+				<str id="button-name">Cài đặt ↓</str>
 
 				<str id="hitsounds">Hitsounds</str>
-				<str id="muteVocals">Mute Vocals</str>
-				<str id="edit">Edit</str>
-				<str id="delete">Delete</str>
+				<str id="muteVocals">Tắt giọng</str>
+				<str id="edit">Chỉnh</str>
+				<str id="delete">Xoá</str>
 
-				<str id="noWaveform">No Waveform</str>
+				<str id="noWaveform">Không sóng âm</str>
 			</group>
 
-			<str id="createNew">Create New</str>
-			<str id="lock-unlock">Lock/Unlock</str>
+			<str id="createNew">Tạo thêm</str>
+			<str id="lock-unlock">Khoá/Mở khoá</str>
 
 			<str id="info.localEvents">Local Events\n(Only This Difficulty)</str>
 			<str id="info.globalEvents">Global Events\n(All Difficulties)</str>
@@ -325,12 +325,12 @@
 			<str id="eventType-global">Global Event</str>
 
 			<!-- CharterEventAdd.hx -->
-			<str id="addEvent">Add Event</str>
-			<str id="editEvent">Edit</str> <!-- Should maybe be "Edit Event" -->
-			<str id="deleteEvent">Delete Event</str>
+			<str id="addEvent">Thêm Event</str>
+			<str id="editEvent">Chỉnh Event</str> <!-- Should maybe be "Edit Event" -->
+			<str id="deleteEvent">Xoá Event</str>
 
 			<group name="Notifications" prefix="popup.">
-				<str id="savedChartAt">Saved chart at {0}!</str>
+				<str id="savedChartAt">Lưu chart tại {0}!</str>
 			</group>
 		</group>
 	</group>
