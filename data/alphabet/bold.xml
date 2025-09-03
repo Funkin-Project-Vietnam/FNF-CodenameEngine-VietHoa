@@ -59,6 +59,10 @@
 		<component anim="character-a0" x="0" y="0"/>
 		<component anim="character-period" x="15" y="-13" />
 	</composite>
+	<composite char="ả">
+		<component anim="character-a0" x="0" y="0"/>
+		<component anim="character-backtick" x="10" y="70" angle="50" />
+	</composite>
 	<composite char="ã">
 		<component anim="character-a0" x="0" y="0"/>
 		<component anim="character-tilde0" x="5" y="65" />
@@ -82,6 +86,11 @@
 		<component anim="character-a0" x="0" y="0"/>
 		<component anim="character-caret" x="5" y="65" flipY="true" />
 		<component anim="character-period" x="15" y="-13" />
+	</composite>
+	<composite char="ẳ">
+		<component anim="character-a0" x="0" y="0"/>
+		<component anim="character-backtick" x="10" y="90" angle="50" />
+		<component anim="character-caret" x="5" y="65" flipY="true" />
 	</composite>
 	<composite char="ẵ">
 		<component anim="character-a0" x="0" y="0"/>
@@ -108,10 +117,20 @@
 		<component anim="character-caret" x="5" y="65" />
 		<component anim="character-period" x="15" y="-13" />
 	</composite>
+	<composite char="ẩ">
+		<component anim="character-a0" x="0" y="0"/>
+		<component anim="character-backtick" x="10" y="90" angle="50" />
+		<component anim="character-caret" x="5" y="65" />
+	</composite>
 	<composite char="ẫ">
 		<component anim="character-a0" x="0" y="0"/>
 		<component anim="character-tilde0" x="0" y="90" />
 		<component anim="character-caret" x="5" y="65" />
+	</composite>
+
+	<composite char="đ">
+		<component anim="character-d0" x="0" y="0"/>
+		<component anim="diacritic-acute-fill" x="12" y="25" angle="-60" flipX="true" outline="diacritic-acute-outline" outlineX="-1" hasOutline="true"/>
 	</composite>
 
 	<composite char="é">
@@ -125,6 +144,10 @@
 	<composite char="ẹ">
 		<component anim="character-e0" x="0" y="0"/>
 		<component anim="character-period" x="10" y="-19" />
+	</composite>
+	<composite char="ẻ">
+		<component anim="character-e0" x="0" y="0"/>
+		<component anim="character-backtick" x="5" y="70" angle="50" />
 	</composite>
 	<composite char="ẽ">
 		<component anim="character-e0" x="0" y="0"/>
@@ -150,6 +173,11 @@
 		<component anim="character-caret" x="0" y="65" />
 		<component anim="character-period" x="15" y="-13" />
 	</composite>
+	<composite char="ể">
+		<component anim="character-e0" x="0" y="0"/>
+		<component anim="character-backtick" x="5" y="90" angle="50" />
+		<component anim="character-caret" x="0" y="65" />
+	</composite>
 	<composite char="ễ">
 		<component anim="character-e0" x="0" y="0"/>
 		<component anim="character-tilde0" x="0" y="90" />
@@ -168,6 +196,10 @@
 		<component anim="character-i0" x="0" y="0"/>
 		<component anim="character-period" x="10" y="-19" />
 	</composite>
+	<composite char="ỉ">
+		<component anim="character-i0" x="0" y="0"/>
+		<component anim="character-backtick" x="5" y="70" angle="50" />
+	</composite>
 	<composite char="ĩ">
 		<component anim="character-i0" x="0" y="0"/>
 		<component anim="diacritic-tilde-fill" x="3" y="73" outline="diacritic-tilde-outline" outlineX="-1" hasOutline="true"/>
@@ -185,6 +217,10 @@
 		<component anim="character-o0" x="0" y="0"/>
 		<component anim="character-period" x="12=4" y="-19" />
 	</composite>
+	<composite char="ỏ">
+		<component anim="character-o0" x="0" y="0"/>
+		<component anim="character-backtick" x="10" y="70" angle="50" />
+	</composite>
 	<composite char="õ">
 		<component anim="character-o0" x="0" y="0"/>
 		<component anim="diacritic-tilde-fill" x="7" y="73" outline="diacritic-tilde-outline" outlineX="-1" hasOutline="true"/>
@@ -197,7 +233,7 @@
 	<composite char="ố">
 		<component anim="character-o0" x="0" y="0"/>
 		<component anim="character-caret" x="0" y="65" />
-		<component anim="diacritic-acute-fill" x="18" y="73" outline="diacritic-acute-outline" outlineX="-1" hasOutline="true"/>
+		<component anim="diacritic-acute-fill" x="18" y="90" outline="diacritic-acute-outline" outlineX="-1" hasOutline="true"/>
 	</composite>
 	<composite char="ồ">
 		<component anim="character-o0" x="0" y="0"/>
@@ -208,6 +244,11 @@
 		<component anim="character-o0" x="0" y="0"/>
 		<component anim="character-caret" x="0" y="65" />
 		<component anim="character-period" x="15" y="-13" />
+	</composite>
+	<composite char="ổ">
+		<component anim="character-o0" x="0" y="0"/>
+		<component anim="character-backtick" x="10" y="90" angle="50" />
+		<component anim="character-caret" x="0" y="65" />
 	</composite>
 	<composite char="ỗ">
 		<component anim="character-o0" x="0" y="0"/>
@@ -234,6 +275,11 @@
 		<component anim="character-period" x="12=4" y="-19" />
 		<component anim="character-backtick" x="30" y="50" angle="80" />
 	</composite>
+	<composite char="ở">
+		<component anim="character-o0" x="0" y="0"/>
+		<component anim="character-backtick" x="10" y="70" angle="50" />
+		<component anim="character-backtick" x="30" y="50" angle="80" />
+	</composite>
 	<composite char="ỡ">
 		<component anim="character-o0" x="0" y="0"/>
 		<component anim="diacritic-tilde-fill" x="7" y="73" outline="diacritic-tilde-outline" outlineX="-1" hasOutline="true"/>
@@ -251,6 +297,10 @@
 	<composite char="ụ">
 		<component anim="character-u0" x="0" y="0"/>
 		<component anim="character-period" x="12=4" y="-19" />
+	</composite>
+	<composite char="ủ">
+		<component anim="character-u0" x="0" y="0"/>
+		<component anim="character-backtick" x="5" y="70" angle="50" />
 	</composite>
 	<composite char="ũ">
 		<component anim="character-u0" x="0" y="0"/>
@@ -276,6 +326,11 @@
 		<component anim="character-period" x="12=4" y="-19" />
 		<component anim="character-backtick" x="30" y="50" angle="80" />
 	</composite>
+	<composite char="ử">
+		<component anim="character-u0" x="0" y="0"/>
+		<component anim="character-backtick" x="5" y="70" angle="50" />
+		<component anim="character-backtick" x="30" y="50" angle="80" />
+	</composite>
 	<composite char="ữ">
 		<component anim="character-u0" x="0" y="0"/>
 		<component anim="diacritic-tilde-fill" x="7" y="73" outline="diacritic-tilde-outline" outlineX="-1" hasOutline="true"/>
@@ -293,6 +348,10 @@
 	<composite char="ỵ">
 		<component anim="character-y0" x="0" y="0"/>
 		<component anim="character-period" x="12=4" y="-19" />
+	</composite>
+	<composite char="ỷ">
+		<component anim="character-y0" x="0" y="0"/>
+		<component anim="character-backtick" x="10" y="70" angle="50" />
 	</composite>
 	<composite char="ỹ">
 		<component anim="character-y0" x="0" y="0"/>

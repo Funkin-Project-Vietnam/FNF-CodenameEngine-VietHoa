@@ -64,7 +64,7 @@
 	</group>
 
 	<group name="AppearanceOptions" prefix="AppearanceOptions.">
-		<str id="framerate-name">Framerate</str>
+		<str id="framerate-name">Tốc độ khung hình</str>
 		<str id="framerate-desc">Pretty self explanatory, isn't it?</str>
 
 		<str id="flashingMenu-name">Flashing Menu</str>
@@ -123,7 +123,7 @@
 		<str id="songOffset-desc">Changes the offset that songs should start with.</str>
 
 		<group name="GameplayOptionsAdvanced" prefix="Advanced.">
-			<str id="windowSize-name">Window Size</str>
+			<str id="windowSize-name">Kích cỡ Window</str>
 			<str id="windowSize-desc">...</str>
 
 			<str id="streamedMusic-name">Streamed Music</str>
@@ -135,8 +135,8 @@
 	</group>
 
 	<group name="LanguageOptions" prefix="LanguageOptions.">
-		<str id="language-name">Language</str>
-		<str id="language-desc">Language by {0} (Version: {1})</str>
+		<str id="language-name">Ngôn Ngữ</str>
+		<str id="language-desc">Ngôn ngữ bởi {0} (Phiên bản: {1})</str>
 	</group>
 
 	<group name="MiscOptions" prefix="MiscOptions.">
