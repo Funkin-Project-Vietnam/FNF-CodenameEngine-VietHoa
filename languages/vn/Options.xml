@@ -58,7 +58,7 @@
 		<str id="category.developer">Nhà phát triển</str>
 		<group name="developer" prefix="developer.">
 			<str id="devMenus">Menus của NPT</str>
-			<str id="openConsole">Mở Console</str>
+			<str id="openConsole">Mở BĐK</str>
 			<str id="reloadState">Tải lại State</str>
 		</group>
 	</group>
@@ -99,38 +99,38 @@
 
 	<group name="GameplayOptions" prefix="GameplayOptions.">
 		<str id="downscroll-name">Downscroll</str>
-		<str id="downscroll-desc">Nếu chọn, nốt will go from up to down instead of down to up, as if they're falling.</str>
+		<str id="downscroll-desc">Nếu chọn, nốt sẽ di chuyển từ trên xuống thay vì từ dưới lên, giống như đang rơi.</str>
 
 		<str id="ghostTapping-name">Ghost Tapping</str>
-		<str id="ghostTapping-desc">If unchecked, trying to hit any strum that have no note that can be hit will cause a miss.</str>
+		<str id="ghostTapping-desc">Nếu bỏ chọn, cố nhấn bất kỳ phím nhạc nào khi không có nốt cần đánh sẽ khiến bạn bị hụt.</str>
 
-		<str id="naughtyness-name">Naughtyness</str>
-		<str id="naughtyness-desc">If unchecked, will censor the Week 7 cutscenes or more.</str>
+		<str id="naughtyness-name">Nghịch Ngợm</str>
+		<str id="naughtyness-desc">Nếu bỏ chọn, sẽ kiểm duyệt các cảnh cắt của Week 7 hoặc nhiều hơn nữa.</str>
 
-		<str id="camZoomOnBeat-name">Camera Zoom on Beat</str>
-		<str id="camZoomOnBeat-desc">If unchecked, will stop the camera from zooming in every 4 beats.</str>
+		<str id="camZoomOnBeat-name">Camera Zoom mỗi Beat</str>
+		<str id="camZoomOnBeat-desc">Nếu bỏ chọn, sẽ dừng camera zooming mỗi 4 beats.</str>
 
-		<str id="autoPause-name">Auto Pause</str>
-		<str id="autoPause-desc">If checked, switching windows will pause the game.</str>
+		<str id="autoPause-name">Tự động dừng</str>
+		<str id="autoPause-desc">Nếu chọn, đổi cửa sổ windows sẽ dừng trò chơi.</str>
 
-		<str id="volumeMusic-name">Music Volume</str>
-		<str id="volumeMusic-desc">Changes only the volume of the music instead of everything.</str>
+		<str id="volumeMusic-name">Âm lượng nhạc</str>
+		<str id="volumeMusic-desc">Thay đổi âm lượng của nhạc thay vì của tất cả còn lại.</str>
 
-		<str id="volumeSFX-name">SFX Volume</str>
-		<str id="volumeSFX-desc">Changes only the volume of the SFX instead of everything.</str>
+		<str id="volumeSFX-name">Âm lượng SFX</str>
+		<str id="volumeSFX-desc">Thay đổi âm lượng của SFX thay vì của tất cả còn lại.</str>
 
-		<str id="songOffset-name">Song Offset</str>
-		<str id="songOffset-desc">Changes the offset that songs should start with.</str>
+		<str id="songOffset-name">Độ trễ bài hát</str>
+		<str id="songOffset-desc">Thay đổi độ trễ của bài hát nên chạy.</str>
 
 		<group name="GameplayOptionsAdvanced" prefix="Advanced.">
 			<str id="windowSize-name">Kích cỡ Window</str>
 			<str id="windowSize-desc">...</str>
 
-			<str id="streamedMusic-name">Streamed Music</str>
-			<str id="streamedMusic-desc">If checked, only musics will have streamed audio, ALSO freeing a LOT of memory with the downside of higher cpu usage if more audio are being streamed at once (EXPERIMENTAL). Turning this off will consume a lot of memory, especially on longer songs. If you aren't sure, leave this on.</str>
+			<str id="streamedMusic-name">Nhạc phát trực tiếp</str>
+			<str id="streamedMusic-desc">Nếu chọn, chỉ các bản nhạc sẽ có âm thanh phát trực tiếp, đồng thời giải phóng RẤT NHIỀU bộ nhớ nhưng nhược điểm là CPU sẽ tốn nhiều hơn nếu nhiều âm thanh được phát trực tiếp cùng lúc (THỬ NGHIỆM). Tắt tùy chọn này sẽ tiêu tốn nhiều bộ nhớ, đặc biệt với các bài hát dài. Nếu bạn không chắc, hãy để bật.</str>
 
-			<str id="streamedVocals-name">Streamed Vocals</str>
-			<str id="streamedVocals-desc">If checked, vocals will also be streamed if Streamed Music is checked, will impact the performance if the song uses alot of vocals (EXPERIMENTAL). If you aren't sure, leave this off.</str>
+			<str id="streamedVocals-name">Giọng phát trực tiếp</str>
+			<str id="streamedVocals-desc">Nếu chọn, giọng hát cũng sẽ được phát trực tiếp nếu bật Nhạc Phát Trực Tiếp, sẽ ảnh hưởng đến hiệu suất nếu bài hát có nhiều đoạn giọng hát (THỬ NGHIỆM). Nếu bạn không chắc, hãy để tắt.</str>
 		</group>
 	</group>
 
@@ -140,68 +140,68 @@
 	</group>
 
 	<group name="MiscOptions" prefix="MiscOptions.">
-		<str id="forceCrash-name">Force Crash</str>
-		<str id="forceCrash-desc">Select this option to force a crash.</str>
+		<str id="forceCrash-name">Buộc dừng (Crash)</str>
+		<str id="forceCrash-desc">Chọn tuỳ chỉnh này để buộc dừng trò chơi.</str>
 
-		<str id="betaUpdates-name">Nightly Updates</str>
-		<str id="betaUpdates-desc">If checked, will also include nightly builds (the engine repository's commit updates basically, using Actions' builds) in the update checking.</str>
+		<str id="betaUpdates-name">Cập nhật hàng ngày</str>
+		<str id="betaUpdates-desc">Nếu chọn, cũng sẽ bao gồm các bản dựng hàng đêm (cập nhật commit từ repository's của engine, sử dụng bản dựng từ Actions) trong quá trình kiểm tra cập nhật.</str>
 
-		<str id="checkForUpdates-name">Check for Updates</str>
-		<str id="checkForUpdates-desc">Select this option to check for new engine updates.</str>
-		<str id="checkForUpdates-noUpdateFound">No update found.</str>
+		<str id="checkForUpdates-name">Kiểm tra cập nhật</str>
+		<str id="checkForUpdates-desc">Chọn tuỳ chỉnh này để kiểm tra có cập nhật mới không.</str>
+		<str id="checkForUpdates-noUpdateFound">Không tìm thấy bản cập nhật.</str>
 
-		<str id="devMode-name">Developer Mode</str>
-		<str id="devMode-desc">If checked, you will be able to access developer features like certain keybinds, editors, developer options, state reloads, console and more.</str>
+		<str id="devMode-name">Chế độ nhà phát triển</str>
+		<str id="devMode-desc">Nếu chọn, bạn sẽ có thể truy cập các tính năng dành cho nhà phát triển như một số phím tắt, các editors, tùy chọn nhà phát triển, tải lại state, bảng điều khiển và nhiều hơn nữa.</str>
 
-		<str id="allowConfigWarning-name">Show Modpacks Warning</str>
-		<str id="allowConfigWarning-desc">If checked, a popup at the start of the game will appear if there are some warnings about the modpack, such as missing configs, incompatible versions and more</str>
+		<str id="allowConfigWarning-name">Thấy cảnh báo Modpacks</str>
+		<str id="allowConfigWarning-desc">Nếu chọn, một cửa sổ bật lên sẽ xuất hiện khi bắt đầu trò chơi nếu có một số cảnh báo về modpack, chẳng hạn như thiếu tệp configs, phiên bản không tương thích và nhiều vấn đề khác</str>
 
-		<str id="resetSaveData-name">Reset Save Data</str>
-		<str id="resetSaveData-desc">Select this option to reset save data. This will remove all of your highscores.</str>
+		<str id="resetSaveData-name">Đặt lại dữ liệu</str>
+		<str id="resetSaveData-desc">Chọn tuỳ chỉnh này để đặt lại dữ liệu, nó sẽ xoá toàn bộ điểm cao nhất của bạn.</str>
 	</group>
 
 	<group name="DebugOptions" prefix="DebugOptions.">
-		<str id="title">Debug Options</str>
-		<str id="desc">Use this menu to enable or disable debug options.</str>
+		<str id="title">Tuỳ chỉnh gỡ lỗi</str>
+		<str id="desc">Sử dụng menu này để bật tắt các tuỳ chỉnh gỡ lỗi.</str>
 
-		<str id="showConsole-name">Show Console</str>
-		<str id="showConsole-desc">Select this to show the debug console, which contains log information about the game.</str>
+		<str id="showConsole-name">Hiện bảng điều khiển</str>
+		<str id="showConsole-desc">Sử dụng tuỳ chỉnh này để hiện bảng điều khiển, chứa thông tin và nhật ký trò chơi.</str>
 
-		<str id="editorsResizable-name">Resizable Editors</str>
-		<str id="editorsResizable-desc">If checked, this will allow the editors to render beyond the base 1280x720 resolution of FNF (allowing for more detail and space...)</str>
+		<str id="editorsResizable-name">Có thể thay đổi kích thước Editors</str>
+		<str id="editorsResizable-desc">Nếu chọn, tùy chọn này sẽ cho phép các editors hiển thị vượt quá độ phân giải cơ bản 1280x720 của FNF (cho phép có nhiều chi tiết và không gian hơn...)</str>
 
-		<str id="bypassEditorsResize-name">Bypass Editor Resize</str>
-		<str id="bypassEditorsResize-desc">Disables the minimum resolution for resizing editors (Needs Resizable Editors To Be Enabled).</str>
+		<str id="bypassEditorsResize-name">Bỏ qua thay đổi kích thước Editor</str>
+		<str id="bypassEditorsResize-desc">Tắt độ phân giải tối thiểu để thay đổi kích thước editors (Cần Có thể thay đổi kích thước Editors Được Bật).</str>
 
 		<str id="editorSFX-name">Editor SFXs</str>
-		<str id="editorSFX-desc">If checked, will play sound effects when working on editors (ex: will play sfxs when checking checkboxes...)</str>
+		<str id="editorSFX-desc">Nếu chọn, sẽ phát hiệu ứng âm thanh khi làm việc trong các trình chỉnh sửa (ví dụ: sẽ phát âm thanh khi đánh dấu vào ô chọn...)</str>
 
 		<str id="editorCharterPrettyPrint-name">Chart Pretty Print</str>
-		<str id="editorCharterPrettyPrint-desc">If checked, the saved files from the chart editor will be formatted to be easily viewable</str>
+		<str id="editorCharterPrettyPrint-desc">Nếu chọn, files được lưu từ chart editor sẽ được định dạnh để dễ nhìn hơn</str>
 
 		<str id="editorCharacterPrettyPrint-name">Character Pretty Print</str>
-		<str id="editorCharacterPrettyPrint-desc">If checked, the saved files from the character editor will be formatted to be easily viewable</str>
+		<str id="editorCharacterPrettyPrint-desc">Nếu chọn, files được lưu từ character editor sẽ được định dạnh để dễ nhìn hơn</str>
 
 		<str id="editorStagePrettyPrint-name">Stage Pretty Print</str>
-		<str id="editorStagePrettyPrint-desc">If checked, the saved files from the stage editor will be formatted to be easily viewable</str>
+		<str id="editorStagePrettyPrint-desc">Nếu chọn, files được lưu từ stage editor sẽ được định dạnh để dễ nhìn hơn</str>
 
-		<str id="intensiveBlur-name">Intensive Blur</str>
-		<str id="intensiveBlur-desc">If checked, will use more intensive blur that may be laggier but look better.</str>
+		<str id="intensiveBlur-name">Làm mờ cường độ cao</str>
+		<str id="intensiveBlur-desc">Nếu chọn, sẽ sử dụng hiệu ứng làm mờ mạnh hơn, có thể gây lag nhưng trông đẹp mắt hơn.</str>
 
-		<str id="charterAutoSaves-name">Editor Autosaves</str>
-		<str id="charterAutoSaves-desc">If checked, this will autosave your files in the editor, with the settings listed below.</str>
+		<str id="charterAutoSaves-name">Editor Tự động lưu</str>
+		<str id="charterAutoSaves-desc">Nếu chọn, tùy chọn này sẽ tự động lưu các files của bạn trong editors, với các cài đặt được liệt kê bên dưới.</str>
 
-		<str id="charterAutoSaveTime-name">Autosaving Time</str>
-		<str id="charterAutoSaveTime-desc">This controls how often the editor will autosave your file (in seconds...)</str>
+		<str id="charterAutoSaveTime-name">Thời gian tự động lưu</str>
+		<str id="charterAutoSaveTime-desc">tùy chọn này kiểm soát tần suất editors sẽ tự động lưu files của bạn (tính bằng giây...)</str>
 
-		<str id="charterAutoSaveWarningTime-name">Save Warning Time</str>
-		<str id="charterAutoSaveWarningTime-desc">This controls how long the editor will warn you before it autosaves (in seconds..., 0 to disable)</str>
+		<str id="charterAutoSaveWarningTime-name">Cảnh báo thời gian lưu</str>
+		<str id="charterAutoSaveWarningTime-desc">Tuỳ chọn này kiểm soát bao lâu editors sẽ cảnh báo cho bạn trước khi tự động lưu (tính bằng giây..., 0 để tắt)</str>
 
-		<str id="charterAutoSavesSeparateFolder-name">Autosaves Folder</str>
-		<str id="charterAutoSavesSeparateFolder-desc">If checked, this will autosave your file in a separate folder with a time stamp instead of overriding your current file. (song/autosaves/)</str>
+		<str id="charterAutoSavesSeparateFolder-name">Thư mục tự động lưu</str>
+		<str id="charterAutoSavesSeparateFolder-desc">Nếu chọn, tùy chọn này sẽ tự động lưu files của bạn vào một thư mục riêng với dấu thời gian thay vì ghi đè lên tệp hiện tại. (song/autosaves/)</str>
 
-		<str id="songOffsetAffectEditors-name">Offset in Charter</str>
-		<str id="songOffsetAffectEditors-desc">If checked, this will enable the Song Offset option in the Chart Editor too.</str>
+		<str id="songOffsetAffectEditors-name">Độ Trễ trong Chart Editor</str>
+		<str id="songOffsetAffectEditors-desc">Nếu chọn, tùy chọn này cũng sẽ bật chức năng Độ Trễ Bài Hát trong Chart Editor.</str>
 	</group>
 
 </language>
