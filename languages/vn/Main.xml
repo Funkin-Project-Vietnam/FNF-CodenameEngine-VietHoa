@@ -24,7 +24,7 @@
 	</group>
 
 	<group name="Freeplay">
-		<str id="freeplay.score">PERSONAL BEST:{0}</str>
+		<str id="freeplay.score">THÀNH TÍNH CÁ NHÂN CAO NHẤT:{0}</str>
 		<str id="freeplay.solo">Đơn</str>
 		<str id="freeplay.opponentMode">Chế độ đối thủ</str>
 		<str id="freeplay.coopMode">Chế độ Co-Op</str>
