@@ -195,7 +195,7 @@
 					<str id="exit">Thoát</str>
 				</group>
 
-				<str id="topBar.edit">Chỉnh sửa</str>
+				<str id="topBar.edit">Sửa</str>
 				<group name="EditMenu" prefix="edit.">
 					<str id="undo">Hoàn tác</str>
 					<str id="redo">Hoàn tác lại</str>
@@ -310,7 +310,7 @@
 
 				<str id="hitsounds">Hitsounds</str>
 				<str id="muteVocals">Tắt giọng</str>
-				<str id="edit">Chỉnh</str>
+				<str id="edit">Sửa</str>
 				<str id="delete">Xoá</str>
 
 				<str id="noWaveform">Không sóng âm</str>
@@ -365,7 +365,7 @@
 					<str id="exit">Thoát</str>
 				</group>
 
-				<str id="topBar.edit">Chỉnh</str>
+				<str id="topBar.edit">Sửa</str>
 				<group name="EditMenu" prefix="edit.">
 					<str id="copyOffset">Sao chép Offset</str>
 					<str id="pasteOffset">Dán Offset</str>
@@ -456,58 +456,58 @@
 
 	<group name="AlphabetEditor" prefix="editor.alphabet.">
 		<group name="AlphabetSelection" prefix="selection.">
-			<str id="acceptTypeface">Press ACCEPT to edit this typeface.</str>
-			<str id="newTypeface">New Typeface</str>
-			<str id="newTypefaceDesc">Press ACCEPT to create a new typeface.</str>
-			<str id="desc">Select a typeface to edit</str>
+			<str id="acceptTypeface">Nhấn ACCEPT để thay đổi kiểu chữ.</str>
+			<str id="newTypeface">Kiểu chữ mới</str>
+			<str id="newTypefaceDesc">Nhấn ACCEPT để tạo kiểu chữ mới.</str>
+			<str id="desc">Lựa chọn 1 kiểu chữ để thay đổi</str>
 
 			<group name="Warnings" prefix="warnings.">
-				<str id="notImplemented-title">New Typeface: Feature Not Implemented!</str>
-				<str id="notImplemented-body">This feature isn't implemented yet. Please wait for more cne updates to have this functional.\n\n\n- Codename Crew</str>
+				<str id="notImplemented-title">Kiểu chữ mới: Tính năng chưa thêm vào!</str>
+				<str id="notImplemented-body">Tính năng này hiện chưa có làm. Vui lòng chờ thêm bản cập nhật CNE để tính năng này hoạt động.\n\n\n- Codename Crew</str>
 			</group>
 		</group>
 
 		<group name="AlphabetEditor">
 			<group name="TopBar">
-				<str id="topBar.file">File</str>
+				<str id="topBar.file">Tệp</str>
 				<group name="FileMenu" prefix="file.">
-					<str id="new">New</str>
-					<str id="save">Save</str>
-					<str id="saveAs">Save As...</str>
-					<str id="exit">Exit</str>
+					<str id="new">Mới</str>
+					<str id="save">Lưu</str>
+					<str id="saveAs">Lưu với...</str>
+					<str id="exit">Thoát</str>
 				</group>
 
-				<str id="topBar.edit">Edit</str>
+				<str id="topBar.edit">Sửa</str>
 				<group name="EditMenu" prefix="edit.">
-					<str id="undo">Undo</str>
-					<str id="redo">Redo</str>
+					<str id="undo">Hoàn Tác</str>
+					<str id="redo">Làm lại</str>
 				</group>
 
-				<str id="topBar.glyph">Glyph</str>
+				<str id="topBar.glyph">Tượng hình</str>
 				<group name="GlyphMenu" prefix="glyph.">
-					<str id="newGlyph">New Glyph</str>
-					<str id="editGlyph">Edit Glyph</str>
-					<str id="deleteGlyph">Delete Glyph</str>
+					<str id="newGlyph">Kiểu tượng hình mới</str>
+					<str id="editGlyph">Sửa kiểu tượng hình</str>
+					<str id="deleteGlyph">Xoá kiểu tượng hình</str>
 				</group>
 
 				<str id="topBar.offset">Offsets</str>
 				<group name="OffsetsMenu" prefix="offset.">
-					<str id="moveLeft">Move Left</str>
-					<str id="moveUp">Move Up</str>
-					<str id="moveDown">Move Down</str>
-					<str id="moveRight">Move Right</str>
-					<str id="moveExtraLeft">Move Extra Left</str>
-					<str id="moveExtraUp">Move Extra Up</str>
-					<str id="moveExtraDown">Move Extra Down</str>
-					<str id="moveExtraRight">Move Extra Right</str>
-					<str id="clearOffsets">Clear Offsets</str>
+					<str id="moveLeft">Qua trái</str>
+					<str id="moveUp">Đi lên</str>
+					<str id="moveDown">Đi xuống</str>
+					<str id="moveRight">Qua phải</str>
+					<str id="moveExtraLeft">Qua trái thêm</str>
+					<str id="moveExtraUp">Đi lên thêm</str>
+					<str id="moveExtraDown">Đi xuống thêm</str>
+					<str id="moveExtraRight">Qua phải thêm</str>
+					<str id="clearOffsets">Xoá Offsets</str>
 				</group>
 
 				<str id="topBar.view">View</str>
 				<group name="ViewMenu" prefix="view.">
-					<str id="zoomIn">Zoom in</str>
-					<str id="zoomOut">Zoom out</str>
-					<str id="resetZoom">Reset Zoom</str>
+					<str id="zoomIn">Zoom vào</str>
+					<str id="zoomOut">Zoom ra</str>
+					<str id="resetZoom">Đặt lại Zoom</str>
 				</group>
 			</group>
 		</group>
@@ -530,9 +530,9 @@
 					<str id="exit">Exit</str>
 				</group>
 
-				<str id="topBar.edit">Edit</str>
+				<str id="topBar.edit">Sửa</str>
 				<group name="EditMenu" prefix="edit.">
-					<str id="undo">Undo</str>
+					<str id="undo">Hoàn Tác</str>
 					<str id="redo">Redo</str>
 					<str id="editStageInfo">Edit Stage Info</str>
 				</group>
