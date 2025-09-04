@@ -35,7 +35,7 @@
 		<str id="alphabet.name">Tuỳ chỉnh bảng chữ cái</str>
 		<str id="chart.name">Tuỳ chỉnh chart</str>
 		<str id="character.name">Tuỳ chỉnh nhân vật</str>
-		<str id="stage.name">Tuỳ chỉnh sân khấu</str>
+		<str id="stage.name">Tuỳ chỉnh Stage</str>
 		<str id="uiDebug.name">Trạng thái debug</str>
 		<str id="wiki.name">Wiki</str>
 		<str id="debugOptions.name">Tuỳ chọn debug</str>
@@ -60,7 +60,7 @@
 			<str id="title">Tạo chart mới</str>
 			<str id="info">Thông tin chart</str>
 			<str id="diffName">tên độ khó</str>
-			<str id="stage">Sân khấu</str>
+			<str id="stage">Stage</str>
 			<str id="scrollSpeed">Tốc độ note</str>
 
 			<str id="strumLineList">Strumlines $* Yêu cầu ít nhất 1 Strumline$</str>
@@ -77,7 +77,7 @@
 		<group name="ChartDataScreen" prefix="chartDataScreen.">
 			<str id="title">Thuộc tính chart</str>
 			<str id="editChartData">Chỉnh sửa dữ liệu chart</str>
-			<str id="stage">Sân khấu</str>
+			<str id="stage">Stage</str>
 			<str id="scrollSpeed">Tốc độ note</str>
 		</group>
 
@@ -166,7 +166,7 @@
 			<str id="newChar">Nhân vật mới</str>
 			<str id="type">Loại</str>
 			<str id="scrollSpeed">Tốc độ note</str>
-			<str id="stagePos">Điểm sân khấu</str>
+			<str id="stagePos">Điểm Stage</str>
 			<str id="scale">Độ lớn</str>
 			<str id="spacing">Khoảng cách</str>
 			<str id="hudPos">Vị trí Hud (X [Ratio 0-1],Y)</str>
@@ -389,10 +389,10 @@
 					<str id="clearOffsets">Xoá Offsets</str>
 				</group>
 
-				<str id="topBar.stage">Sân khấu</str>
+				<str id="topBar.stage">Stage</str>
 				<group name="StageMenu" prefix="stage.">
 					<str id="useStage">Sử dụng "{0}"</str>
-					<str id="useNone">Không sử dụng sân khấu nào</str>
+					<str id="useNone">Không sử dụng Stage nào</str>
 				</group>
 
 				<str id="topBar.view">View</str>
@@ -515,135 +515,135 @@
 
 	<group name="StageEditor">
 		<group name="StageSelection" prefix="stageSelection.">
-			<str id="desc">Select a stage to edit. HSCRIPT only stages are not supported.</str>
-			<str id="acceptStage">Press ACCEPT to edit this stage.</str>
-			<str id="newStage">New Stage</str>
-			<str id="acceptNewStage">Press ACCEPT to create a new stage.</str>
+			<str id="desc">Lựa chọn 1 Stage để thay đổi. Các stage chỉ dùng HSCRIPT không được hỗ trợ.</str>
+			<str id="acceptStage">Nhấn ACCEPT để chỉnh sửa stage này.</str>
+			<str id="newStage">Stage mới</str>
+			<str id="acceptNewStage">Nhấn ACCEPT để tạo stage mới.</str>
 		</group>
 
 		<group name="StageEditor" prefix="stageEditor.">
 			<group name="TopBar">
-				<str id="topBar.file">File</str>
+				<str id="topBar.file">Tệp</str>
 				<group name="FileMenu" prefix="file.">
-					<str id="save">Save</str>
-					<str id="saveAs">Save As...</str>
-					<str id="exit">Exit</str>
+					<str id="save">Lưu</str>
+					<str id="saveAs">Lưu với...</str>
+					<str id="exit">Thoát</str>
 				</group>
 
 				<str id="topBar.edit">Sửa</str>
 				<group name="EditMenu" prefix="edit.">
 					<str id="undo">Hoàn Tác</str>
-					<str id="redo">Redo</str>
-					<str id="editStageInfo">Edit Stage Info</str>
+					<str id="redo">Làm Lại</str>
+					<str id="editStageInfo">Chỉnh sửa thông tin Stage</str>
 				</group>
 
-				<str id="topBar.select">Selection</str>
+				<str id="topBar.select">Lựa chọn</str>
 				<group name="SelectionMenu" prefix="select.">
-					<str id="all">Select All</str>
-					<str id="deselect">Deselect</str>
-					<str id="inverse">Inverse Selection</str>
+					<str id="all">Chọn tất cả</str>
+					<str id="deselect">Bỏ lựa chọn</str>
+					<str id="inverse">Chọn nghịch đảo</str>
 				</group>
 
 				<str id="topBar.view">View</str>
 				<group name="ViewMenu" prefix="view.">
-					<str id="zoomIn">Zoom in</str>
-					<str id="zoomOut">Zoom out</str>
-					<str id="zoomReset">Reset Zoom</str>
-					<str id="focusDad">Focus Dad</str>
-					<str id="focusGF">Focus GF</str>
-					<str id="focusBF">Focus BF</str>
+					<str id="zoomIn">Zoom vào</str>
+					<str id="zoomOut">Zoom ra</str>
+					<str id="zoomReset">Đặt lại Zoom</str>
+					<str id="focusDad">Tập trung vào Dad</str>
+					<str id="focusGF">Tập trung vào GF</str>
+					<str id="focusBF">Tập trung vào BF</str>
 				</group>
 
 				<str id="topBar.editor">Editor</str>
 				<group name="EditorMenu" prefix="editor.">
-					<str id="showCharacters">Show Characters</str>
+					<str id="showCharacters">Hiện nhân vật</str>
 				</group>
 
 				<group name="StageSpriteScreen" prefix="stageSpriteScreen.">
-					<str id="win-title">Edit stage sprite</str>
-					<str id="stageImageFile">Stage Image File $* Required$</str>
+					<str id="win-title">Chỉnh sửa hình ảnh stages</str>
+					<str id="stageImageFile">File hình ảnh của Stage $* Cần$</str>
 				</group>
 			</group>
 		</group>
 
 		<group name="StageCreationScreen" prefix="stageCreationScreen.">
-			<str id="win-title">Creating New Stage</str>
-			<str id="title">Stage Info</str>
-			<str id="stageName">Stage Name</str>
-			<str id="stagePath">Stage Path</str>
+			<str id="win-title">Tạo Stage mới</str>
+			<str id="title">Thông tin Stage</str>
+			<str id="stageName">Tên Stage</str>
+			<str id="stagePath">Đường dẫn Stage</str>
 
 			<group name="Warnings" prefix="warnings.">
-				<str id="stage-exists-title">Creating Stage: Error!</str>
-				<str id="stage-exists-body">The stage you are trying to create alreadly exists, if you would like to override it delete the stage first!</str>
+				<str id="stage-exists-title">Tạo Stage: Lỗi!</str>
+				<str id="stage-exists-body">Stage bạn đang cố gắng tạo đã có sẵn, nếu bạn muốn ghi đè lên hãy xoá Stage cũ trước!</str>
 			</group>
 		</group>
 
 		<group name="StageInfoScreen" prefix="stageInfoScreen.">
-			<str id="win-title">Editing Stage "{0}" Infos</str>
-			<str id="title">Stage Info</str>
-			<str id="stageName">Stage Name</str>
-			<str id="spritePath">Sprite Path\n(Needs Refresh)</str>
-			<str id="startCamPos">Start Camera Position (X, Y)</str>
+			<str id="win-title">Chỉnh Sửa Thông tin "{0}" Stage</str>
+			<str id="title">Thông tin Stage</str>
+			<str id="stageName">Tên Stage</str>
+			<str id="spritePath">Đường dẫn Hình ảnh\n(Cần làm mới)</str>
+			<str id="startCamPos">Bắt đầu vị trí Camera (X, Y)</str>
 			<str id="zoom">Zoom</str>
 		</group>
 
 		<group name="StageElementEditScreen" prefix="stageElementEditScreen.">
-			<str id="win-character-title">Editing Character "{0}"</str>
-			<str id="win-sprite-title">Editing Sprite "{0}"</str>
-			<str id="win-title">Editing XML &lt;{0} /&gt;</str>
+			<str id="win-character-title">Chỉnh sửa nhân vật "{0}"</str>
+			<str id="win-sprite-title">Chỉnh sửa hình ảnh "{0}"</str>
+			<str id="win-title">Chỉnh sửa XML &lt;{0} /&gt;</str>
 
-			<str id="character-title">Character Data</str>
-			<str id="sprite-title">Sprite Data</str>
-			<str id="title">XML Data</str>
+			<str id="character-title">Dữ liệu nhân vật</str>
+			<str id="sprite-title">Dữ liệu hình ảnh</str>
+			<str id="title">Dữ liệu XML</str>
 
-			<str id="elementName">Element Name</str>
-			<str id="nameID">Name Identifier</str>
-			<str id="imageFile">Image File (WIP: needs reload)\nIn (${stage.spritesParentFolder})</str>
-			<str id="scroll">Scroll {0}</str>
-			<str id="scale">Scale {0}</str>
+			<str id="elementName">Tên phần tử</str>
+			<str id="nameID">Tên Định dang</str>
+			<str id="imageFile">File hình ảnh (WIP: cần tải lại!)\nIn (${stage.spritesParentFolder})</str>
+			<str id="scroll">Cuộn {0}</str>
+			<str id="scale">Tỉ lệ {0}</str>
 			<str id="camera">Camera {0}</str>
-			<str id="spacing">Spacing (X, Y)</str>
-			<str id="skew">Skew {0}</str>
-			<str id="alpha">Alpha</str>
-			<str id="angle">Angle</str>
-			<str id="zoomFactor">Zoom Factor</str>
-			<str id="positionName">Position Name</str>
-			<str id="flipX">Flip X</str>
-			<str id="antialiasing">Antialiasing</str>
-			<str id="highMemory">High Memory</str>
-			<str id="lowMemory">Low Memory</str>
-			<str id="attributes">Attributes</str>
-			<str id="transformPreview">Transform Preview:</str>
+			<str id="spacing">Khoảng cách (X, Y)</str>
+			<str id="skew">Độ lệch {0}</str>
+			<str id="alpha">Độ mờ</str>
+			<str id="angle">Độ Nghiêng</str>
+			<str id="zoomFactor">Tỉ lệ Zoom</str>
+			<str id="positionName">Tên vị trí</str>
+			<str id="flipX">Lật X</str>
+			<str id="antialiasing">Khử răng cưa</str>
+			<str id="highMemory">Memory Cao</str>
+			<str id="lowMemory">Memory Thấp</str>
+			<str id="attributes">Thuộc tính</str>
+			<str id="transformPreview">Xem trước biến đổi:</str>
 
-			<str id="animType">Animation Type</str>
+			<str id="animType">Kiểu hoạt hình</str>
 			<group name="AnimTypeDropdown" prefix="animType.">
-				<str id="none">NONE</str>
+				<str id="none">KHÔNG</str>
 				<str id="beat">BEAT</str>
-				<str id="loop">LOOP</str>
+				<str id="loop">LẶP LẠI</str>
 			</group>
-			<str id="tipCustomProperties">Tip: To access custom properties,\nHold Shift when clicking edit</str>
+			<str id="tipCustomProperties">Tip: Để truy cập các thuộc tính tùy chỉnh,\nHãy giữ phím Shift khi nhấp vào chỉnh sửa</str>
 		</group>
 
 		<group name="StageXMLEditScreen" prefix="stageXMLEditScreen.">
-			<str id="win-title">Editing {0} XML</str>
-			<str id="title">Xml Data</str>
-			<str id="attributes">Attributes</str>
+			<str id="win-title">Chỉnh sửa {0} XML</str>
+			<str id="title">Dữ liệu Xml</str>
+			<str id="attributes">Thuộc tính</str>
 		</group>
 
-		<str id="stageCharacters.requiredPosition">This character position is required in stages!</str>
-		<str id="stageCharacters.noDeleteGirlfriend">You can't delete Girlfriend</str>
+		<str id="stageCharacters.requiredPosition">Vị trí nhân vật này là bắt buộc trong stage!</str>
+		<str id="stageCharacters.noDeleteGirlfriend">Bạn không thể xoá Girlfriend</str>
 
 		<group name="StageElement" prefix="stageElement.">
-			<str id="scale">Scale: {0}, {1}</str>
-			<str id="scroll">Scroll: {0}, {1}</str>
+			<str id="scale">Tỉ lệ: {0}, {1}</str>
+			<str id="scroll">Cuộn: {0}, {1}</str>
 		</group>
 
 		<group name="StageSprites" prefix="stageSprites.">
-			<str id="win-title">Stage Sprites</str>
-			<str id="sprite">Sprite</str>
-			<str id="box">Box</str>
-			<str id="character">Character</str>
-			<str id="warnings.not-implemented">Creating a box isnt implemented yet!</str>
+			<str id="win-title">Hình ảnh Stage</str>
+			<str id="sprite">Hình ảnh</str>
+			<str id="box">Hộp</str>
+			<str id="character">Nhân vật</str>
+			<str id="warnings.not-implemented">Tính năng tạo hộp vẫn chưa có thêm vào!</str>
 		</group>
 	</group>
 
@@ -651,33 +651,33 @@
 	<!-- PlayTesting allows color in the description by doing *hello* -->
 	<!-- SaveWarning doesn't allow color in the description -->
 	<group name="PlayTesting" prefix="playtesting.">
-		<str id="chartPlaytesting" notrim="true"> (Chart Playtesting)</str>
-		<str id="exitGame">Exit Game</str>
-		<str id="exitToMenu">Exit To Menu</str>
-		<str id="saveAndExitGame">Save &amp; Exit Game</str>
-		<str id="saveAndExitToMenu">Save &amp; Exit To Menu</str>
-		<str id="cancel">Cancel</str>
+		<str id="chartPlaytesting" notrim="true"> (Chart Chơi thử)</str>
+		<str id="exitGame">Thoát trò chơi</str>
+		<str id="exitToMenu">Thoát ra menu</str>
+		<str id="saveAndExitGame">Lưu &amp; Thoát trò chơi</str>
+		<str id="saveAndExitToMenu">Lưu &amp; Thoát ra menu</str>
+		<str id="cancel">Huỷ</str>
 
-		<str id="warningTitle">UNSAVED CHANGES!</str>
-		<str id="warningDesc">Your changes will be *lost* if you don't save them. (Can't be recovered)\n\n\nWould you like to Cancel?</str>
+		<str id="warningTitle">THAY ĐỔI CHƯA ĐƯỢC LƯU!</str>
+		<str id="warningDesc">Thay đổi của bạn sẽ bị *mất* nếu như bạn không lưu. (Không thể khôi phục)\n\n\nBạn có muốn huỷ không?</str>
 	</group>
 
 	<group name="SaveWarning" prefix="saveWarning.">
-		<str id="warningTitle">Unsaved Changes!</str>
-		<str id="warningDesc">Your changes will be lost if you don't save them. (Can't be recovered)\n\n\nWould you like to Cancel?</str>
+		<str id="warningTitle">THAY ĐỔI CHƯA ĐƯỢC LƯU!</str>
+		<str id="warningDesc">Thay đổi của bạn sẽ bị *mất* nếu như bạn không lưu. (Không thể khôi phục)\n\n\nBạn có muốn huỷ không?</str>
 
-		<str id="exitGame">Exit Game</str>
-		<str id="exitToMenu">Exit To Menu</str>
-		<str id="saveAndExitGame">Save &amp; Exit Game</str>
-		<str id="saveAndExitToMenu">Save &amp; Exit To Menu</str>
-		<str id="cancel">Cancel</str>
+		<str id="exitGame">Thoát trò chơi</str>
+		<str id="exitToMenu">Thoát ra menu</str>
+		<str id="saveAndExitGame">Lưu &amp; Thoát trò chơi</str>
+		<str id="saveAndExitToMenu">Lưu &amp; Thoát ra menu</str>
+		<str id="cancel">Huỷ</str>
 	</group>
 
 	<group name="ModConfigWarning" prefix="modConfigWarning.">
-		<str id="warningTitle">Missing mod folder configuration!</str>
-		<str id="warningDesc">Your mod is currently missing a mod config file!\n\nWould you like to automatically generate one?\n\n(PS: If this is not your mod please disable Developer mode to stop this popup from appearing.)</str>
+		<str id="warningTitle">Thiếu cấu hình thư mục mod!</str>
+		<str id="warningDesc">Mod của bạn hiện đang thiếu tệp config mod!\n\nBạn có muốn tự động tạo một tệp không?\n\n(Lưu ý: Nếu đây không phải là mod của bạn, vui lòng tắt Chế độ Nhà phát triển để ngăn cửa sổ này xuất hiện.)</str>
 
-		<str id="createdTitle">Created mod config!</str>
-		<str id="createdDesc">Your mod config file has been created at {0}!</str>
+		<str id="createdTitle">Tạo mod config!</str>
+		<str id="createdDesc">Mod config file của bạn đã được tạo tại {0}!</str>
 	</group>
 </language>
